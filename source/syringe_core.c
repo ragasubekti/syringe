@@ -89,12 +89,5 @@ DWORD ExecuteShellcode(PBYTE pShellcode, SIZE_T szShellcodeLength, BOOL quiet) {
 }
 
 DWORD WINAPI LocalExecPayloadStub(LPVOID lpParameter) {
-	__try {
-		VOID(*lpCode)() = (VOID(*)())lpParameter;
-		lpCode();
-	}
-	__except(EXCEPTION_EXECUTE_HANDLER) {
-	}
-
 	return 0;
 }

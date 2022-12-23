@@ -8,6 +8,11 @@ shellcode or a DLL directly into running processes.
 
 Syringe is distributed in source code form only.  Compiled binary files are not available.  This was a conscious decision in order to prevent AV signatures from being developed.  As such, users will have to compile Syringe locally.  Syringe is meant to be compiled in Visual Studio 2013, other versions of VS, and other IDEs are not supported.  Syringe can be compiled by loading the provided project file (syringe.sln) with VS, specifying the desired architecture, and building.
 
+## Linux Compile
+
+Requirements: `make mingw64-gcc`
+Run `make build_linux`
+
 ## Usage
 
 Syringe supports three options for injection (specified with "-1", "-2", or "-3").  The following examples assume the x86 version.

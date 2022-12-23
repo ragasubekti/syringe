@@ -34,8 +34,8 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <Windows.h>
-#include <WinCrypt.h>
+#include <windows.h>
+#include <wincrypt.h>
 #include <conio.h>
 #include <stdio.h>
 #include <tlhelp32.h>
