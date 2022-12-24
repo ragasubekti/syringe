@@ -6,3 +6,4 @@ source/Release/*
 source/syringe.vcxproj.user
 syringe.opensdf
 syringe.sdf
+output/*
